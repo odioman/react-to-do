@@ -5,19 +5,16 @@ function App() {
   return (
     <div className="App">
       <p>
-        <input type="checkbox">
+        <input type="checkbox"/>
         Milk
-        </input>
       </p>
       <p>
-        <input type="checkbox">
+        <input type="checkbox"/>
         Eggs
-        </input>
       </p>
       <p>
-        <input type="checkbox">
+        <input type="checkbox"/>
         Butter
-        </input>
       </p>  
     </div>
   );
