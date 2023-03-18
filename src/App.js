@@ -1,21 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import TodoItem from './components/TodoItem.js';
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        <input type="checkbox"/>
-        Milk
-      </p>
-      <p>
-        <input type="checkbox"/>
-        Eggs
-      </p>
-      <p>
-        <input type="checkbox"/>
-        Butter
-      </p>  
+    <div className="todo-list">
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
 }
